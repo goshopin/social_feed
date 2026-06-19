@@ -428,6 +428,21 @@ body {
   background: var(--primary);
   color: white;
 }
+.auth-sub {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.auth-back-link {
+  background: none;
+  border: none;
+  color: var(--primary);
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+  padding: 4px 0;
+}
+.auth-back-link:hover { text-decoration: underline; }
 .auth-form {
   display: flex;
   flex-direction: column;
